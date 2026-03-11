@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+<img src="/img/image.png" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
 title: "Payton Lussier."
 email: 'payton.lussier@outlook.com'
 description: "I'm a data analyst and researcher with a focus on elections."
