@@ -3,21 +3,9 @@
     <div class="col-md-12">
       <div class="hero-container">
         <div class="hero-content">
-
-          <img src="/img/profile.jpg" alt="Payton Lussier"
-            style="border-radius: 50%; width: 140px; height: 140px; object-fit: cover;
-                   display: block; margin: 0 auto 20px auto;
-                   border: 3px solid #dde3ea;
-                   box-shadow: 0 4px 16px rgba(0,0,0,0.10);">
-
           {% if site.title != '' %}
           <h1 class="text-center">{{site.title}}</h1>
           {% endif %}
-
-          <p class="text-center" style="font-size: 1.0em; color: #7a8a99; margin-bottom: 4px; letter-spacing: 0.04em; text-transform: uppercase; font-weight: 500;">
-            Data Analyst &amp; Elections Researcher
-          </p>
-
           {% if site.description != '' or site.enable_contact == true %}
           <p class="text-center">
             {% if site.description != '' %}
@@ -29,7 +17,6 @@
             {% endif %}
           </p>
           {% endif %}
-
           <div class="hero-buttons">
             {% if site.twitter_username != '' %}
               <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
@@ -41,7 +28,6 @@
               <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
             {% endif %}
           </div>
-
         </div>
       </div>
       <a class="section-jump text-center" href="#portfolio">
